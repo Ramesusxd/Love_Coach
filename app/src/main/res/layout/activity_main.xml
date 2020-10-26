@@ -43,7 +43,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Love Coach!"
+        android:text="Love Coach Book Today!"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -57,9 +57,33 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="-130dp"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-93dp"
+        tools:src="@drawable/Heart" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="205dp"
+        android:layout_height="48dp"
+        android:text="Booking"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="205dp"
+        android:layout_height="48dp"
+        android:text="Reviews"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="205dp"
+        android:layout_height="48dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="584dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
