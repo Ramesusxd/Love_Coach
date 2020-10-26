@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Love Coach</string>
+    <string name="Coaching">Coaching specialization includes:</string>
+    <string name="Coaching2">– Sex Therapy for individuals and couples</string>
+    <string name="Coaching3">– Sexual and sexuality issues for individual</string>
+    <string name="Coaching4">– Intimacy and sexual issues within relationships</string>
+    <string name="Coaching5">– LGBTQIAP related issues</string>
+    <string name="Coaching6">- Sexual Education for adolescent (14 years +)</string>
 </resources>
