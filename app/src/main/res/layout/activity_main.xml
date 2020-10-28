@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,9 +10,9 @@
     <com.google.android.material.tabs.TabLayout
         android:layout_width="409dp"
         android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="18dp"
-        tools:ignore="MissingConstraints">
+        tools:layout_editor_absoluteY="18dp">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
@@ -45,50 +44,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Love Coach Book Today!"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553"
         android:textColor="#000000"
-        />
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="676dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-72dp"
-        tools:src="@drawable/Tracy"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="205dp"
-        android:layout_height="48dp"
-        android:text="Booking"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="451dp"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="205dp"
-        android:layout_height="48dp"
-        android:text="Reviews"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="516dp"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="205dp"
-        android:layout_height="48dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="584dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:src="@drawable/Tracy" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
