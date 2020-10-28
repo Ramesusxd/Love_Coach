@@ -57,9 +57,10 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="-93dp"
-        tools:src="@drawable/Heart" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-72dp"
+        tools:src="@drawable/Tracy"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
@@ -67,7 +68,8 @@
         android:layout_height="48dp"
         android:text="Booking"
         tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="451dp" />
+        tools:layout_editor_absoluteY="451dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button3"
@@ -75,7 +77,8 @@
         android:layout_height="48dp"
         android:text="Reviews"
         tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="516dp" />
+        tools:layout_editor_absoluteY="516dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button4"
@@ -83,7 +86,8 @@
         android:layout_height="48dp"
         android:text="Button"
         tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="584dp" />
+        tools:layout_editor_absoluteY="584dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
